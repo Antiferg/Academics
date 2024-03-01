@@ -1,0 +1,30 @@
+execute at Antiferg run summon minecraft:villager ~ ~ ~ {
+    VillagerData:{
+      level:3,
+      profession:"minecraft:librarian",
+      type:"minecraft:plains"
+    },
+    Offers:{
+      Recipes:[
+        {
+          buy:{
+            id:"minecraft:emerald",
+            Count:1b
+          },
+          sell:{
+            id:"minecraft:enchanted_book",
+            Count:1b,
+            tag:{
+              Enchantments:[
+                {
+                  id:"minecraft:unbreaking",
+                  lvl:3
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+  
